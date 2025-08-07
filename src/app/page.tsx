@@ -81,7 +81,7 @@ export default function Chatbot() {
       </div>
       <AnimatePresence>
         {isOpen && (
-          <motion.div initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 100 }} transition={{ duration: 0.3 }} className="fixed bottom-24 right-6 w-[360px] h-[630px] rounded-3xl overflow-hidden z-50 shadow-2xl backdrop-blur-md bg-white/80 border border-[#01CCE3]/40 flex flex-col">
+          <motion.div initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 100 }} transition={{ duration: 0.3 }} className="fixed bottom-24 right-6 w-[360px] h-[600px] rounded-3xl overflow-hidden z-50 shadow-2xl backdrop-blur-md bg-white/80 border border-[#01CCE3]/40 flex flex-col">
             <div className="bg-gradient-to-r from-[#01CCE3] to-[#197ED0] text-white px-5 py-4 flex justify-between items-center font-bold text-base rounded-t-3xl shadow-sm">
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 rounded-full bg-white shadow-sm animate-pulse" />
