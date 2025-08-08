@@ -14,7 +14,7 @@ interface Message {
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { from: "bot", text: "Hi! 👋 How can I assist you today?" }
+    { from: "bot", text: "Hey there! I’m Sally, your virtual assistant at Health Viber. How are you today?" }
   ]);
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
